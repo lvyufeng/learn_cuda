@@ -9,3 +9,4 @@ float *C, int N, int M, int K, float alpha, float beta){
    }
    C[row * M + col] = alpha * sum + beta * C[row * M + col];
 }
+
